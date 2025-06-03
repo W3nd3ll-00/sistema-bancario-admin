@@ -7,13 +7,7 @@ package com.unincor.sistema.bancario.admin.view;
 import com.unincor.sistema.bancario.admin.exceptions.CadastroException;
 import com.unincor.sistema.bancario.admin.model.domain.Agencia;
 import com.unincor.sistema.bancario.admin.model.services.AgenciaService;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-
-
-
-
 
 /**
  *

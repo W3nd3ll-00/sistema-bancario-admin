@@ -13,6 +13,7 @@ public class TelaCadastrosClientes extends javax.swing.JDialog {
     /**
      * Creates new form TelaCadastrosClientes
      */
+    
     public TelaCadastrosClientes(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
