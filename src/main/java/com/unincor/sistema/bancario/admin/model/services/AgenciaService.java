@@ -3,6 +3,7 @@ package com.unincor.sistema.bancario.admin.model.services;
 import com.unincor.sistema.bancario.admin.exceptions.CadastroException;
 import com.unincor.sistema.bancario.admin.model.dao.AgenciaDao;
 import com.unincor.sistema.bancario.admin.model.domain.Agencia;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -43,6 +44,11 @@ public class AgenciaService {
 
         agenciaDao.inserirAgencia(agencia);
     }
+    
+    public List<Agencia> buscarAgencias(){
+        return agenciaDao.listarTodasAgencias();
+    }
+    
 
     public static void main(String[] args) {
         AgenciaService agenciaService = new AgenciaService();
