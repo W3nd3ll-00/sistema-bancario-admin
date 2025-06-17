@@ -6,7 +6,7 @@ package com.unincor.sistema.bancario.admin.view;
 
 /**
  *
- * @author dioge
+ * @author alunos
  */
 public class TelaPrincipal extends javax.swing.JFrame {
 
