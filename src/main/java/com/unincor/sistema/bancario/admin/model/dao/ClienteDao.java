@@ -11,7 +11,6 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -72,6 +71,7 @@ public class ClienteDao {
         Cliente cliente = new Cliente();
         cliente.setIdCliente(rs.getLong("id_cliente"));
         cliente.setNome(rs.getString("nome"));
+        cliente.setNome(rs.getString("cpf"));
         cliente.setDataNascimento(rs.getDate("data_nascimento").toLocalDate());
         cliente.setEmail(rs.getString("email"));
         cliente.setTelefone(rs.getString("telefone"));
